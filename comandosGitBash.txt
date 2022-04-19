@@ -1,0 +1,41 @@
+/* commits: paquetes que nos van a permitir ir haciendo un seguimiento de los cambios que vamos realizando,
+ dado que cada uno de ellos tiene una timestamp, o fecha de creación, y un autor.
+  Los commits van a ser nuestro historial de cambios que se fueron haciendo en el proyecto.*/
+git --version // muestra la version de git
+git init // crea repositorio local                                            1
+git config user.name // "mi-usario"
+git config user.email // "miCorreo@email.com"
+
+git config --global user.name // "mi-usario"
+git config --global user.email // "miCorreo@email.com"
+
+git add //  agregar archivos
+git status // informa como estan las cosas en el repositorio                   5
+git add . // agrega todos los archivos al repositorio                          2
+
+git clone linkDelRepo . // clonamos el repositorio en nuestra maquina
+git pull origin master // para extrar archivos
+git branch // te dice en q rama estamos
+git checkout -b // crea una rama basada en la actual
+git commit -m "mensaje"// comitea los cambios hechos, se agrega comentario de lo q se hizo                       3
+git push origin master // enviamos los cambios al repositorio remotos                                  4
+git merge test // me posiciono en la rama original(master) y se copia al de test(prueba)
+git remote add origin http://...// sincronizar, apunta al repositorio remoto
+git remote -v //
+git checkout ""// cambia de rama
+
+
+ls // muestra los archivos que hay en la carpeta
+ls -a //muestra archivos ocultos
+dir // muestra los arichivos de la carpeta en la que estamos ubicados
+cd .. // nos permite retroceder una carpeta
+cd nombreCarpeta // nos para en donde pedimos
+rm nombreArchivo.extension // elimina un archivo
+mv nombreAnterior nombreNuevo // cambia el nombre
+clear // limpia la consola(terminal)
+mkdir nomBreCarpeta // crea una carpeta 
+touch nombreArchivo.extension // crear un archivo
+echo $null > nombreArchivo.extension (para PowerShell)
+
+
+para pegar algo crtl shift v
